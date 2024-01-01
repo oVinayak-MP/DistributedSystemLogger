@@ -62,7 +62,7 @@ and
  logger.log(Level.INFO, " This is logged inside span");
  MicroServiceLogger.endSpan();
 logger.log(Level.INFO, " This logged outside span");
+```
 
-
-# Example
+# Example project
 Springboot:https://github.com/vinayakmp007/DistributedLoggerExample
