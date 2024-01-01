@@ -56,8 +56,13 @@ and
 ```
 -Dmicroservicelogger.topic_name=logs
 ```
+-add normal java util log 
+```
+  MicroServiceLogger.startSpan("parent span fourth ");
+ logger.log(Level.INFO, " This is logged inside span");
+ MicroServiceLogger.endSpan();
+logger.log(Level.INFO, " This logged outside span");
 
- 
 
 # Example
 Springboot:https://github.com/vinayakmp007/DistributedLoggerExample
